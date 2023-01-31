@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation_bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+.nav_items ul li{
+    display: inline;
+    margin: 15px;
+    line-height: 40px;
+}
+.nav_items ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.main_section{
+    background-image: url('images/electrician_22.jpg')!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header_section{
+    background-image: url("images/electrician_17.png"),
+    radial-gradient(circle at right,rgba(0,0,0,0) 10%,rgba(0,0,0,0.9) 60%);
+    background-color: rgba(0,0,0,0);
+    background-size: cover;
+    padding: 150px;
+    color: #fff;
+}
+.header_section h1{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.header_section p{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header_section a{
+    font-size: 20px;
+    padding: 20px 35px;
+    text-decoration: none;
+    line-height: 130px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header_section .a_btn{
+    background-color: rgb(29, 132, 216);
+    color: #fff;
+    box-shadow: -15px -13px 0px 4px rgb(29 132 216 / 40% );
+}
+.header_section .b_btn{
+    background-color: #fff;
+    color: rgb(29, 132, 216);
+    margin-left: 30px;
+    box-shadow: 15px 13px 0px 4px rgba(231, 236, 238, 0.4);
+}
+.electrical_services{
+    background-color: black;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.ser_head{
+    width: 850px;
+    font-size: 40px;
+    padding: 50px 90px;
+}
+.ser_head p{
+    position: relative;
+    color: #ffb400;
+    font-size: 30px;
+    padding-left: 2px;
+    padding-bottom: 30px;
+}
+.ser_head p::after{
+    content: "";
+    position: absolute;
+    background-color: #ffb400;;
+    height: 2px;
+    width: 80%;
+    left: 0;
+    bottom: 15px;
+}
+.ser_head h1{
+    font-weight: 100;
+}
+.ser_head span{
+    font-weight: 800;
+}
+.ser_info{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    width: 300px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.info p{
+    margin-bottom: 30px;
+}
+.pro_ser{
+    display: flex;
+    font-size: 18px;
+    gap: 80px;
+}
+.c_service{
+    width: 270px;
+    margin-bottom: 60px;
+    line-height: 25px;
+}
+.c_service h5{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.e_service{
+    width: 270px;
+    line-height: 25px;
+}
+.e_service h5{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.appointment{
+    text-align: end;
+}
+.appointment a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #004ffe;
+    color: #fff;
+    font-weight: 600;
+    padding: 30px 50px;
+    box-shadow: -17px -12px 3px 2px rgb(29 132 216 /50%);
+    letter-spacing: 3px;
+}
+.about_section{
+    background-color: #ffb400;
+    padding-bottom: 40px;
+    background-image: url('images/electrician_19.png');
+    background-position: bottom;
+    background-size: cover;
+}
+.about{
+    display: flex; 
+}
+.about_img img{
+    background-image: linear-gradient(135deg,rgba(0,0,0,0) 70%,#000000 70%);
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.about_info{
+    padding: 150px 200px;
+}
+.about_info h1{
+    font-weight: 100;
+    font-size: 50px;
+}
+.about_info span{
+    font-weight: 700;
+}
+.about_info p{
+    padding: 40px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.about_section .btn{
+    text-align: end;
+}
+.about_section .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #080808;
+    color: #fff;
+    font-weight: 600;
+    padding: 30px 50px;
+    box-shadow: -17px -12px 3px 2px rgba(15 15 15 / 40%);
+    letter-spacing: 3px;
+}
+.works{
+    padding: 80px;
+}
+.work_head{
+    padding: 50px 100px;
+}
+.work_head p{
+    font-weight: 700;
+    font-size: 22px;
+    color: #004ffe;
+    padding-bottom: 20px;
+    position: relative;
+}
+.work_head p::after{
+    content: "";
+    position: absolute;
+    background-color: #004ffe;
+    height: 2px;
+    width: 30%;
+    left: 0;
+    bottom: 7px;
+}
+.work_head h1{
+    font-size: 45px;
+    font-weight: 300;
+    width: 230px;
+}
+.work_head span{
+    font-weight: 700;
+}
+.work_project{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+.projects{
+    display: flex;
+}
+.pro_img1 img{
+    width: 220px;
+    background-image: linear-gradient(230deg,rgba(0,0,0,0) 70%,#000000 70%);
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.pro_img2 img{
+    width: 220px;
+    background-image: linear-gradient(315deg,rgba(89, 129, 238, 0) 70%,#3d6ae6 70%);
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.pro_info h5{
+    font-size: 24px;
+    margin-left: 23px;
+    padding-bottom: 15px;
+}
+.pro_info ul li{
+    margin-left: 40px;
+    line-height: 30px;
+    color: rgb(83, 81, 81);
+}
+.btn1{
+    text-align: end;
+}
+.btn1 a{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background: #004ffe;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 25px 30px;
+    box-shadow: -17px -12px 3px 2px rgba(3, 69, 248, 0.4);
+}
+/* CSS applied to testimonial section */
+.testimonials_section{
+    padding: 80px;
+    background-image: linear-gradient(135deg,#ffffff 78%,#ffb400 80%)!important;
+}
+.testimonial_head{
+    margin-left: 50px;
+}
+.testimonial_head p{
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+}
+.testimonial_head p::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 25%;
+    background-color: #000000;
+    left: 0;
+    bottom: -10px;
+}
+.testimonial_slider{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    gap: 50px;
+}
+.card{
+    width: 515px;
+    box-shadow: 2px 3px 30px 2px grey;
+    padding: 40px;
+    line-height: 33px;
+}
+.card p{
+    font-size: 20px;
+    color: #6a6868;
+}
+.card h5{
+    font-size: 20px;
+    padding-top: 35px;
+}
+.contact_section{
+    background-image: radial-gradient(circle at left,rgba(0,0,0,0) 10%,rgba(0,0,0,0.75) 60%),
+    url(images/electrician_22.jpg)!important;
+    background-size: cover;
+    padding: 60px;
+}
+.contact_details{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.contact_form form input{
+    padding: 20px 40px;
+    border: 0;
+}
+.contact_form form input[type=submit]{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    float: right;
+    background-color: #ffb400;
+    border: 0;
+    box-shadow: 16px 14px 3px 2px rgba(252, 215, 4, 0.4);
+}
+.contact_form form textarea{
+    margin-top: 10px;
+    padding: 4px;
+    border: 0;
+}
+.address_info{
+    padding-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+.address_info h5{
+    font-size: 23px;
+    color: #fff;
+}
+.address_info p{
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.address_info i{
+    color: #ffb400;
+    font-size: 20px;
+}
+footer{
+    background-color: #333232;
+    color: #7e7b7b;
+}
+.footer_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 16px;
+}
+.footer_info span{
+    font-weight: 600;
+}
+.footer_icons i{
+    margin: 0 10px;
+    font-size: 30px;
+}
