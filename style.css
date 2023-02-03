@@ -18,6 +18,10 @@
     text-decoration: none;
     font-size: 20px;
 }
+.haburgur_menu{
+    display: none;
+    font-size: 30px;
+}
 .main_section{
     background-image: url('images/electrician_22.jpg')!important;
     background-repeat: no-repeat;
@@ -67,7 +71,8 @@
     padding-bottom: 50px;
 }
 .ser_head{
-    width: 850px;
+    width: 100%;
+    max-width: 850px;
     font-size: 40px;
     padding: 50px 90px;
 }
@@ -95,6 +100,7 @@
 }
 .ser_info{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .info{
@@ -108,6 +114,7 @@
 .pro_ser{
     display: flex;
     font-size: 18px;
+    flex-wrap: wrap;
     gap: 80px;
 }
 .c_service{
@@ -151,6 +158,7 @@
     display: flex; 
 }
 .about_img img{
+    width: 400px;
     background-image: linear-gradient(135deg,rgba(0,0,0,0) 70%,#000000 70%);
     padding-right: 30px;
     padding-bottom: 30px;
@@ -215,11 +223,14 @@
 }
 .work_project{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 60px;
+    gap: 50px;
 }
 .projects{
     display: flex;
+    flex-wrap: wrap;
 }
 .pro_img1 img{
     width: 220px;
@@ -282,6 +293,7 @@
 .testimonial_slider{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 70px;
     gap: 50px;
 }
@@ -308,6 +320,7 @@
 .contact_details{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 70px;
 }
 .contact_form form input{
@@ -333,6 +346,7 @@
 .address_info{
     padding-bottom: 30px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .address_info h5{
@@ -354,6 +368,7 @@ footer{
 }
 .footer_section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
     font-size: 16px;
@@ -361,7 +376,30 @@ footer{
 .footer_info span{
     font-weight: 600;
 }
-.footer_icons i{
+.footer_icons a{
     margin: 0 10px;
     font-size: 30px;
+    text-decoration: none;
+    color: #7e7b7b;
+}
+/* Media quries for mobile devices */
+@media (max-width:1100px) {
+    .nav_items ul li{
+        display: none;
+    }
+    .haburgur_menu{
+        display: block;
+    }
+}
+@media (max-width:900px){
+    .about{
+        display: block;
+    }
+    .about_info {
+        padding: 50px 100px;
+    }
+    .about_img img{
+        width: 700px;
+    }
+    
 }
