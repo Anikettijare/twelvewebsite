@@ -116,10 +116,11 @@
     font-size: 18px;
     flex-wrap: wrap;
     gap: 80px;
+    justify-content: center;
+    margin-bottom: 60px;
 }
 .c_service{
     width: 270px;
-    margin-bottom: 60px;
     line-height: 25px;
 }
 .c_service h5{
@@ -224,9 +225,9 @@
 .work_project{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 60px;
-    gap: 50px;
+    gap: 90px;
 }
 .projects{
     display: flex;
@@ -339,6 +340,8 @@
     box-shadow: 16px 14px 3px 2px rgba(252, 215, 4, 0.4);
 }
 .contact_form form textarea{
+    width: 31.3rem;
+    height: 11rem;
     margin-top: 10px;
     padding: 4px;
     border: 0;
@@ -346,7 +349,6 @@
 .address_info{
     padding-bottom: 30px;
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
 }
 .address_info h5{
@@ -401,5 +403,43 @@ footer{
     .about_img img{
         width: 700px;
     }
-    
+}
+@media (max-width:500px) {
+    .header_section a {
+        font-size: 10px;
+    }
+    .header_section {
+        padding: 40px;
+    }
+    .ser_head {
+        padding: 50px 20px;
+    }
+    .works {
+        padding: 60px 7px;
+    }
+    .about_img img {
+        width: 300px;
+    }
+    .contact_form form textarea{
+        width: 15.5rem;
+        height: 8rem;
+    }
+    .about_info {
+        padding: 50px 10px;
+    }
+    .contact_form form input {
+        margin: 6px 0;
+    }
+    .work_head {
+        padding: 50px 50px;
+    }
+    .pro_ser {
+        gap: 40px;
+    }
+    .testimonials_section {
+        padding: 10px;
+    }
+    .footer_section {
+        justify-content: center;
+    }
 }
