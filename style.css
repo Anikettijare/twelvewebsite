@@ -442,7 +442,7 @@ footer{
     .footer_section {
         justify-content: center;
     }
-    .b_btn {
+    .header_section .b_btn {
         margin-left: 10px;
     }
 }
